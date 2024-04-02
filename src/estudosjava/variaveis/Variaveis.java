@@ -12,6 +12,13 @@ public class Variaveis {
 		
 		System.out.println("Legítimos Primitivos, são os boolean!");
 		System.out.println("Seus valores podem ser: " +verdadeiro +" ou " +falso);
+		
+		byte maxnegativobyte = -128;
+		byte maxpositivobyte = 127;
+		
+		System.out.println("Variáveis byte como o nome diz, ocupam 01 byte de memórria");
+		System.out.println("Aceitam valores inteiros entre " +maxnegativobyte +" e " +maxpositivobyte);
+		
 	}
 
 }
