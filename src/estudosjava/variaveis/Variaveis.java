@@ -19,6 +19,11 @@ public class Variaveis {
 		System.out.println("Variáveis byte como o nome diz, ocupam 01 byte de memórria");
 		System.out.println("Aceitam valores inteiros entre " +maxnegativobyte +" e " +maxpositivobyte);
 		
+		short maxnegativoshort = -32768;
+		short maxpositivoshort = 32767;
+		
+		System.out.println("Variáveis short ocupam 02 bytes de memórria");
+		System.out.println("Aceitam valores inteiros entre " +maxnegativoshort +" e " +maxpositivoshort);
 	}
 
 }
